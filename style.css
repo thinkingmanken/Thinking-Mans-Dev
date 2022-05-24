@@ -1,14 +1,18 @@
 
-body,
+
 html {
+  float:left;
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: url(https://mcusercontent.com/47496d1c01b0d2bbf39001b5a/images/e05d1668-8f60-1ccb-9e72-ba7d4410218e.jpg) no-repeat center center fixed; 
+}
+
+body{
+  background: url(https://images.unsplash.com/photo-1556761175-129418cb2dfe?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 70%;
+  background-size: cover;
   background-color: black;
 }
 
